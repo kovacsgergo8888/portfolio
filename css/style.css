@@ -1,0 +1,57 @@
+body {
+    background-color: #ececec;
+}
+
+.contact {
+    display: none;
+}
+
+.show-contact {
+    cursor: pointer;
+}
+
+.picture-of-me {
+    height: 275px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.box-shadow {
+    box-shadow: #cfcfcf 1px 10px 20px;
+}
+
+.section-gap {
+    margin: 20px 0;
+}
+
+#scroll-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.click-to-expand {
+    margin: 10px 0;
+}
+
+.project-details {
+    height: 300px;
+}
+
+.project-info {
+    display: none;
+}
